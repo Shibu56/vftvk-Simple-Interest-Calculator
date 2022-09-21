@@ -8,4 +8,8 @@ function compute()
              document.getElementById("result").innerHTML="If you deposit "+amt+",\<br\>at an interest rate of "+int+"%\<br\>You will receive an amount of "+famount+",\<br\>in the year "+yr+"\<br\>"
     
 }
+function updateRate(){
+                var rateval=document.getElementbyId("rate").value;
+                document.getElementById("rate_val").innerText=rateval;
+}
         
