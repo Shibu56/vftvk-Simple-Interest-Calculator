@@ -5,7 +5,7 @@ function compute()
              var yr=document.getElementById("years").value;
              var famount=amt*yr*int/100;
              var year=new Date().getFullYear()+parseInt(yr);
-             document.getElementById("result").innerHTML="If you deposit "+amt+",\<br\>at an interest rate of "+int+"%\<br\>You will receive an amount of "+famount+",\<br\>in the year "+yr+"\<br\>"
+             document.getElementById("result").innerHTML="If you deposit "+amt+",\<br\>at an interest rate of "+int+"%\<br\>You will receive an amount of "+famount+",\<br\>in the year "+year+"\<br\>"
     
 }
 function updateRate(){
